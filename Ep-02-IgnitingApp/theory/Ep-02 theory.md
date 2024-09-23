@@ -37,13 +37,37 @@ ans. bundler packaged your app properly so that it can be shipped to production.
 
 ---
 
-
 ## Questions:
-1. What is npm? 
+
+1. What is npm?
+2. Why do we we need this package.json file?
+3. is package.json & package-lock.json are same?
+4. What is the integrity?
+5. Did we need to push our package.json and package-lock.json?
+   > yes absoultely bc package.json and package-lock.json maintain all the dependencies that our projects need.
 
 ## Points to Remember:-
 
 1. there are lots of pakages that are used to build the production ready app.
 2. Npm doesn't have a full form.
 3. npm is the standard library for all the packages.
+4. The Package.json file is the configration of npm.
+5. the packages which npm gives us are also known as dependencies.
+6. Create react app is using web pack and bundler behind the scenes.
+7. webpack, vite and parcel are the types of bundlers using now a days.
+8. all the bundlers are doing the same thing with certain d/f algorithm.
+9. What is npm install -D parcel? ==> There are 2 types of dependencies
+   a. dev dependencies = It is generally required in a development phase.
+   b. normal dependencies = It is use inproduction also.
 
+10. As we are installing parcel as a dev dependency.
+11. And we are going to tell the package manager that I want parcel into the app.
+12. In our package.json we got this parcel as a dev dependency.
+
+## Points to Remember:-
+
+1. package-lock.json keep the track of exact version that has been installed.
+2. package-lock.json kind of locks the version and keep the record of it.
+3. What is the integrity
+4. If I had my package and package.log I can regenertae my node modules.
+5. What so ever you can regenerate do notput it on git.
