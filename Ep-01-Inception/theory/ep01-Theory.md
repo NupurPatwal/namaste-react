@@ -33,8 +33,10 @@
 > it contains 3 arguments.
 
 1. What tag we need to use?
-2. An object (basically an empty object).
+2. An object (basically an empty object)./attributes
 3. what we have to put inside the h1 tag.
+   > react element
+   > 1 child simple wite 2. multiple child in an array.
 
 > Creating a element is a core thing from react so its cpme from the first cdn link.
 > But when we are creating the root and rendering somthing it is the job of react DOM.
@@ -59,6 +61,8 @@ root.render(heading);
    > react element is nothing but a javascript object. here we have heading as a react element.
 3. What are props?
    > Props are children + attributes that we passed.
+4. What is cross origin?
+5. What are react elements?
 
 ## Points to remember:
 
@@ -67,5 +71,4 @@ root.render(heading);
 
 #### Part 03:
 
- 1. Creating something like:
- 
+1.  Creating something like:
