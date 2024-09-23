@@ -34,3 +34,16 @@ ans. bundler packaged your app properly so that it can be shipped to production.
     Ans. the dep. on which parcel is running is running is based on other dep.
 19. node modules are the colllection of depemdencies.
 20. If we have package.json and package-log.json we can regenrate the node modules.
+
+---
+
+
+## Questions:
+1. What is npm? 
+
+## Points to Remember:-
+
+1. there are lots of pakages that are used to build the production ready app.
+2. Npm doesn't have a full form.
+3. npm is the standard library for all the packages.
+

@@ -1,0 +1,25 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "This is Namaste react tutorial file by Akshay saini",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NupurPatwal/namaste-react.git"
+  },
+  "keywords": [
+    "namaste",
+    "react",
+    "n-invincible",
+    "nupurpatwal"
+  ],
+  "author": "Nupur Patwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NupurPatwal/namaste-react/issues"
+  },
+  "homepage": "https://github.com/NupurPatwal/namaste-react#readme"
+}
