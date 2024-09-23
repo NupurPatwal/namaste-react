@@ -27,8 +27,6 @@
 
 #### Part 02:
 
-## Questions:
-
 ## Points to remember:
 
 > It is as same as the create js element
@@ -52,5 +50,22 @@ const root = ReactDOM.createRoot(document.querySelector("#root"));
 root.render(heading);
 ```
 
+#### Part 03:
 
-4. 
+## Questions:
+
+1. What is the missing object in the code?
+2. What is the React.create element is given to us?
+   > react element is nothing but a javascript object. here we have heading as a react element.
+3. What are props?
+   > Props are children + attributes that we passed.
+
+## Points to remember:
+
+> What is the most important thing that has happend in the browser? === the manipulation of the trees.
+> React comes with the philosphy of writing or manipulating DOM things using js/react.
+
+#### Part 03:
+
+ 1. Creating something like:
+ 
