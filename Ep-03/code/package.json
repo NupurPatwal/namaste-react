@@ -1,0 +1,14 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "npm file for episode 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "nupur-patwal",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
