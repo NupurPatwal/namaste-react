@@ -72,6 +72,9 @@ ans. bundler packaged your app properly so that it can be shipped to production.
 4. If I had my package and package.log I can regenertae my node modules.
 5. What so ever you can regenerate do notput it on git.
 6. Just like we have npm similarly we had a command called npx
+7. cdn is not the good way to bring react into the library.
+8. because fetching from cdn is almost a costly operation.
+9. it's easier to manage all the dependencies inside our npm package.json
 
 ## to install we are going to use npm install than we are going to install a package.
 
@@ -81,10 +84,13 @@ ans. bundler packaged your app properly so that it can be shipped to production.
 
 1. npm
 2. npm init - for package.json
-3. np
+3. npx run
+4. m=npm install react
+5. m=npm install react-dom
    > package.json : it is a configration file to npm. maintainthe versions of our dependencies. but not the exact version ^ or ~
    > package-log.json: contain exact version of all the transtive /dependencies that my project ever need..
    > node modules : it contains all the code of it
    > gitignore : file which are not going to pushed in the github
 
 > > npx parcel index.htm
+> > When we have to exceute the package we write npx.
