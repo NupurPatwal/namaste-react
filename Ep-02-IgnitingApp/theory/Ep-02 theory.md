@@ -71,3 +71,20 @@ ans. bundler packaged your app properly so that it can be shipped to production.
 3. What is the integrity
 4. If I had my package and package.log I can regenertae my node modules.
 5. What so ever you can regenerate do notput it on git.
+6. Just like we have npm similarly we had a command called npx
+
+## to install we are going to use npm install than we are going to install a package.
+
+## to run the command we are going to use $ npx parcel index.htm(file name)
+
+### parcel install steps:
+
+1. npm
+2. npm init - for package.json
+3. np
+   > package.json : it is a configration file to npm. maintainthe versions of our dependencies. but not the exact version ^ or ~
+   > package-log.json: contain exact version of all the transtive /dependencies that my project ever need..
+   > node modules : it contains all the code of it
+   > gitignore : file which are not going to pushed in the github
+
+> > npx parcel index.htm
