@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NupurPatwal/namaste-react.git"
+  },
   "author": "nupur-patwal",
   "license": "ISC",
   "devDependencies": {
